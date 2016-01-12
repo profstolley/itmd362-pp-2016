@@ -59,6 +59,8 @@ git version 2.6.4
 
 2. Copy below the output from `git config --global --list`:
 
+user.name=Cindy
+user.email=cxie9@hawk.iit.edu
 
 You also need to set up your public/private keypair with GitHub. Once you’ve
 done that, do the following:
