@@ -55,6 +55,7 @@ First, you need to install Git, if you don’t have it already.
 
 1. Copy below the output from `git version`:
 
+git version 2.6.4
 
 2. Copy below the output from `git config --global --list`:
 
