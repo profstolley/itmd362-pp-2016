@@ -67,6 +67,9 @@ done that, do the following:
 
 3. Copy below the output from `ssh git@github.com`:
 
+llocation request failed on channel 0
+Hi navrozvadsaria! You've successfully authenticated, but GitHub does not provide shell access.
+Connection to github.com closed.
 
 Clone your fork of this repository. Then, on your computer, add a remote
 referencing my copy of the repository as the upstream rep by running
