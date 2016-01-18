@@ -89,6 +89,7 @@ already.
 
 5. Copy below the output from `node -v`:
 
+v0.10.25
 
 6. Copy below all of the output from `npm install http-server -g`:
 
