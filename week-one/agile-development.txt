@@ -92,4 +92,15 @@ already.
 v0.10.25
 
 6. Copy below all of the output from `npm install http-server -g`:
+/usr/local/bin/http-server -> /usr/local/lib/node_modules/http-server/bin/http-server
+/usr/local/bin/hs -> /usr/local/lib/node_modules/http-server/bin/http-server
+http-server@0.8.5 /usr/local/lib/node_modules/http-server
+├── opener@1.4.1
+├── corser@2.0.0
+├── colors@1.0.3
+├── http-proxy@1.12.0 (eventemitter3@1.1.1, requires-port@0.0.1)
+├── union@0.4.4 (qs@2.3.3)
+├── optimist@0.6.1 (wordwrap@0.0.3, minimist@0.0.10)
+├── ecstatic@0.7.6 (url-join@0.0.1, mime@1.3.4, minimist@1.2.0, he@0.5.0)
+└── portfinder@0.4.0 (async@0.9.0, mkdirp@0.5.1)
 
