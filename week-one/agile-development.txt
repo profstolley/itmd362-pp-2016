@@ -58,6 +58,8 @@ git version 2.1.4
 
 
 2. Copy below the output from `git config --global --list`:
+user.name=navrozvadsaria
+user.email=nvadsari@hawk.iit.edu
 
 
 You also need to set up your public/private keypair with GitHub. Once you’ve
