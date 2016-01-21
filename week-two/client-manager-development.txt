@@ -39,7 +39,7 @@ Use Google or another search engine to learn the keyboard commands to take a scr
 Then, also list here the keyboard commands to switch between your different virtual desktops (on some operating systems, you might be able to customize the shortcuts to your own liking):
 
 
-3. Set up a distraction-free browser.
+4. Set up a distraction-free browser.
 
 Have at least one browser that is free from bookmarks, bookmark bars, and your personal browsing history. Set it up to clear all history when you exit it, if possible.
 
@@ -47,11 +47,11 @@ You want a clean slate to be able to show a web project off without interference
 
 Use Google or another search engine to learn the keyboard commands to take a screenshot of the window of your distraction-free browser. Create the screenshot, then copy it to this directory (`week-two`) and add and commit it to the repository.
 
-4. Learn to disable notifications.
+5. Learn to disable notifications.
 
 Projecting your screen or showing it to someone else can be an immediate source of embarrassment if a notification pops up from the wrong app. For every device you own, learn how to disable the notifications. On your desktop device and on one of your devices, take a screenshot of the screen where you can disable all notifications. Create the screenshots, then copy them to this directory (`week-two`) and add and commit them to the repository.
 
-5. Invest in a machine-washable microfiber cloth & clean your screens.
+6. Invest in a machine-washable microfiber cloth & clean your screens.
 
 There’s no deliverable for this, but it is good professional practice always to have a cloth to wipe down your screens ahead of meetings. I keep one in every desk I work at, and in each different bag that I carry. Searching Amazon.com, for example, turns up a bunch of different options: http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Doffice-products&field-keywords=microfiber+cloths
 
