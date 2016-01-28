@@ -48,7 +48,7 @@ https://help.github.com/articles/generating-ssh-keys/
 You must fork this repository from GitHub to your own account, clone it to your
 computer, and edit this file.
 
-**You should must create a separate commit for each of the following steps.**
+**You must create a separate commit for each of the following steps.**
 Text between backticks are commands to run in your command-line shell.
 
 First, you need to install Git, if you don’t have it already.
