@@ -1,0 +1,72 @@
+html, body {
+	background: #848484 url("pics/claude-monet-lilies.jpg");
+	background-repeat: no-repeat;
+	background-position:top center;
+	margin::auto;
+}
+
+#content
+{
+	background-color:#848484;
+	opacity: 0.60;
+	width: 400px;
+	position:static;
+	margin-left: auto;
+	margin-right: auto;
+
+	padding:15px;
+	padding-bottom:50px;
+	text-align: center;
+
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#logo
+{
+	opacity: 1.0;
+	width: 100px;
+}
+
+#logoText
+{
+	font-size: 8pt;
+}
+
+#tellme
+{
+	font-family: 'Fredericka the Great', cursive;
+	color:black;
+	font-size: 37pt;
+}
+
+input[type=text] 
+{
+	background-color:gainsboro;
+	outline:none;
+	
+	font-size: 12pt;
+	color:black;
+	font-style: bold;
+	
+    padding:10px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus 
+{
+    border-color:#333;
+}
+
+input[type=submit] 
+{
+    background: transparent;
+	
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 21pt;
+	color:black;
+	
+    border:0 none;
+    cursor:pointer;
+}
