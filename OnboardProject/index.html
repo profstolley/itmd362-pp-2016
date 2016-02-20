@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width" />
 		<title>ClaudeClub</title>
 		<link rel="stylesheet" href="format.css">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
@@ -9,35 +10,53 @@
 	</head>
 	<body>
 		<div id="content">
-		<br>
-		<br>
-			<span id="tellme">
+			<span id="title">
 				<b>claude</b>
 				<br>
 				<b>monet</b>
+				<br>
 			</span>
-			<form method="POST" action ="process.php">
+			<span id="info">
+				This is a community for appreciating the works of Claude Monet.
 				<br>
-				<input type="text" name="name" placeholder ="name"/>
+				Join us to our email list to receive weekly letters full of Monet's work!
 				<br>
-				<input type="text" name="email" placeholder ="email address"/>
+			</span>
+			<form id="form">
 				<br>
-				<input type="text" id="hide" name="password" placeholder ="password"/>
+					ENTER YOUR NAME: (OPTIONAL)
 				<br>
-				<input type="text" id="hide" name="password" placeholder ="confirm password"/>
-				<br>
-				<input type="submit" value="join" name="submit"/>
-				<br>
-				<br>
+				<input id="name" type="text" name="name" placeholder ="Claude Monet"/>
 				<br>
 				<br>
-					<img src="pics/JooMattLogo.png" id="logo">
+					ENTER YOUR EMAIL ADDRESS:
 				<br>
-					<span id="logoText">Copyright © 2016 Matt Minhyuk Joo Inc. All rights reserved.</span>
+				<input id="email" type="text" name="email" placeholder ="monet@example.com"/>
 				<br>
-				<br>
-				<br>
+				<input id="join" type="submit" value="join" name="submit"/>
 			</form>
+			<br>
+			<br>
+			<img src="pics/JooMattLogo.png" id="logo">
+			<br>
+			<span id="logoText">Copyright © 2016 Matt Minhyuk Joo Inc. All rights reserved.</span>
+			<br>
 		</div>
+		<script type="text/javascript">
+			var join = document.getElementById('join');
+			join.addEventListener('click', function(){
+				var email = document.getElementById('email').value;
+				var email_filter= /^.+@.+$/;
+				if(!email_filter.test(email))
+				{
+					alert('Please enter a valid email address.');
+				}
+
+				else
+				{
+					alert('You have joined our emailing list!\nGet ready to be amazed by Claude Monet!');
+				}
+			});
+		</script>
 	</body>
 </html>
