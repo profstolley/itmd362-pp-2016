@@ -26,11 +26,14 @@ Fine-grained, atomic commits to your Production Problems repository that include
 2) an explanation of three different points of guidance from your chosen guidelines (point to the
    specific URL where the guidance can be found) that you implemented in your sketch, written below:
 
-* HCI Guidline One (URL):
+* HCI Guidline One (URL):https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/LayoutandAppearance.html#//apple_ref/doc/uid/TP40006556-CH54-SW1
 * How you implemented it in your sketch:
 
-* HCI Guidline Two (URL):
-* How you implemented it in your sketch:
+Make it easy to focus on the main task by elevating important content or functionality, this is my major problem with iit’s website, I implemented the focus on the Log in space which is the main purpose of the page by making it brighter on the center 
 
-* HCI Guidline Three (URL):
-* How you implemented it in your sketch:
+* HCI Guidline Two (URL):https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Navigation.html#//apple_ref/doc/uid/TP40006556-CH53-SW1
+* How you implemented it in your sketch: Navigation, 
+I change the position of the contents, so if you need more info than the basic info you need to scroll down. Also I implemented hierarchical layout starting with what is most important (the log in)
+
+* HCI Guidline Three (URL):https://www.google.com/design/spec/usability/accessibility.html#accessibility-readability
+* How you implemented it in your sketch: Readability, to implement readability I increase the percentage o the log in dialog. 
