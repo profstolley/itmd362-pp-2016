@@ -15,8 +15,8 @@ Fine-grained, atomic commits to your Production Problems repository that include
 
 * A monochromatic palette for a website that creates high-end, custom-made gaming laptops.
 
-Filename:
-Explanation of your color choices:
+Filename:palette1.png
+Explanation of your color choices:palette one was chosen with the only reference that I have to modern video games: “HALO” I am not a gamer, but whenever I think about gaming laptops or similar I think about this game, also it makes a reference to the classic view of the command prompt with black background and green letters
 
 * A shaded color palette for a website that sells natural and organic foods.
 
