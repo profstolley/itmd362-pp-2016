@@ -20,8 +20,8 @@ Explanation of your color choices:palette one was chosen with the only reference
 
 * A shaded color palette for a website that sells natural and organic foods.
 
-Filename:
-Explanation of your color choices:
+Filename:palete2.png
+Explanation of your color choices: for organic foods I choose a different kind of green, more “earthy” greens. This decision I made just because most vegetables are green, and most organic product are vegetables, I think. 
 
 * A complementary palette for a banking website.
 
