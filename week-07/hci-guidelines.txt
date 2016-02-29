@@ -26,11 +26,16 @@ Fine-grained, atomic commits to your Production Problems repository that include
 2) an explanation of three different points of guidance from your chosen guidelines (point to the
    specific URL where the guidance can be found) that you implemented in your sketch, written below:
 
-* HCI Guidline One (URL):
-* How you implemented it in your sketch:
+* HCI Guidline One (URL):https://www.google.com/design/spec/style/color.html
+* How you implemented it in your sketch: I used the school's colors to outline the bxes of each section in a redish color. Also the image seen in the second sketch will match 
+	this red, black, and white color scheme. 
 
-* HCI Guidline Two (URL):
-* How you implemented it in your sketch:
+* HCI Guidline Two (URL):https://www.google.com/design/spec/components/buttons-floating-action-button.html
+* How you implemented it in your sketch: The first sketch has a social bar in the upper right hand corner fixed to that position on the screen. 
+	this allows people to go to the facebook or twitter page with ease. The second sketch has a floating social bar that can have a series of messages
+	fixed to the bottom of the window so as they scroll down the bar is always there again allowing for ease of transportation.
 
-* HCI Guidline Three (URL):
-* How you implemented it in your sketch:
+* HCI Guidline Three (URL):https://www.google.com/design/spec/style/typography.html
+* How you implemented it in your sketch: I planned to use a type face that is located on most of the signs around campus.
+	I feel as if IIT has a distinct type face on mot of it's signs and continuing with the same type face will give a sense of 
+	familiarity with the site.
