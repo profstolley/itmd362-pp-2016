@@ -1,0 +1,221 @@
+# Production Problem 1: Establishing an agile development environment
+
+## The Problem
+
+There is no IDE for web development. You need to assemble your own. For this
+class, to start, you will need three items. First, find and install at least one
+plain-text editor that can handle Unicode (UTF-8) encoding, Unix-style line
+endings (LF), and syntax highlighting for the three languages we’ll write most
+in this class: HTML, CSS, and JavaScript. You'll need it to write out the file
+for this first Production Problem. Configure your editor to default to Unicode
+and Unix-style line endings, if necessary. Looking for suggestions? Hit up the
+Campfire chatroom in our class Basecamp site.
+
+Second, you will need a version control system. We will be using Git. You’ll
+either want to install Git using a package manager (e.g., aptitude on Debian,
+yum on CentOS, Homebrew on OS X) or compile it yourself from source. **Do not**
+just download and install a binary from the Web.
+
+You will also need at minimum to configure Git with your name and email address.
+**Do not** just download and install a binary from the Web. From there, you will
+need to set up and interact with your GitHub account.
+
+Third and finally, we will be using a bunch of different developer tools built
+on top of Node.js. Like Git, you should either install Node via a package
+manager or compile it yourself from source. Depending on your installation
+method, you might also have to install the Node Package Manager, npm.
+
+Need help or get stuck? Try the Campfire chatroom, or Ping the instructor, on
+Basecamp.
+
+## Resources & Hints
+
+* Git Configuration:
+https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
+
+* Setting Up SSH Keys on GitHub:
+https://help.github.com/articles/generating-ssh-keys/
+
+* The Git Community Book: https://git-scm.com/book/en/v2
+
+* Node.js: http://nodejs.org/
+
+* Installing Node.js via Package Manager:
+    https://nodejs.org/en/download/package-manager/
+
+## Deliverables
+
+You must fork this repository from GitHub to your own account, clone it to your
+computer, and edit this file.
+
+**You should must create a separate commit for each of the following steps.**
+Text between backticks are commands to run in your command-line shell.
+
+First, you need to install Git, if you don’t have it already.
+
+1. Copy below the output from `git version`:
+
+git version 2.5.0
+
+
+2. Copy below the output from `git config --global --list`:
+
+user.name=Chris Doherty
+user.email=cdoherty@hawk.iit.edu
+
+
+You also need to set up your public/private keypair with GitHub. Once you’ve
+done that, do the following:
+
+3. Copy below the output from `ssh git@github.com`:
+
+The authenticity of host 'github.com (192.30.252.129)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+RSA key fingerprint is MD5:16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.252.129' (RSA) to the list of known hosts.
+PTY allocation request failed on channel 0
+Hi Cdoherty95! You've successfully authenticated, but GitHub does not provide shell access.
+Connection to github.com closed.
+
+
+
+Clone your fork of this repository. Then, on your computer, add a remote
+referencing my copy of the repository as the upstream rep by running
+`git remote add upstream https://github.com/karlstolley/itmd362-pp.git`
+
+4. Copy below the output from `git remote -v` from within your copy of this
+repository:
+
+origin	https://github.com/Cdoherty95/itmd362-pp.git (fetch)
+origin	https://github.com/Cdoherty95/itmd362-pp.git (push)
+upstream	https://github.com/karlstolley/itmd362-pp.git (fetch)
+upstream	https://github.com/karlstolley/itmd362-pp.git (push)
+
+
+Next, you need to install Node.js, and possibly also npm, if you don’t have it
+already.
+
+5. Copy below the output from `node -v`:
+
+v0.10.36
+
+
+6. Copy below all of the output from `npm install http-server -g`:
+npm http GET https://registry.npmjs.org/http-server
+npm http 200 https://registry.npmjs.org/http-server
+npm http GET https://registry.npmjs.org/http-server/-/http-server-0.8.5.tgz
+npm http 200 https://registry.npmjs.org/http-server/-/http-server-0.8.5.tgz
+npm http GET https://registry.npmjs.org/colors/1.0.3
+npm http GET https://registry.npmjs.org/optimist
+npm http GET https://registry.npmjs.org/union
+npm http GET https://registry.npmjs.org/ecstatic
+npm http GET https://registry.npmjs.org/http-proxy
+npm http GET https://registry.npmjs.org/portfinder
+npm http GET https://registry.npmjs.org/opener
+npm http GET https://registry.npmjs.org/corser
+npm http 200 https://registry.npmjs.org/colors/1.0.3
+npm http GET https://registry.npmjs.org/colors/-/colors-1.0.3.tgz
+npm http 200 https://registry.npmjs.org/portfinder
+npm http GET https://registry.npmjs.org/portfinder/-/portfinder-0.4.0.tgz
+npm http 200 https://registry.npmjs.org/optimist
+npm http 200 https://registry.npmjs.org/opener
+npm http GET https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz
+npm http GET https://registry.npmjs.org/opener/-/opener-1.4.1.tgz
+npm http 200 https://registry.npmjs.org/union
+npm http GET https://registry.npmjs.org/union/-/union-0.4.4.tgz
+npm http 200 https://registry.npmjs.org/corser
+npm http GET https://registry.npmjs.org/corser/-/corser-2.0.0.tgz
+npm http 200 https://registry.npmjs.org/ecstatic
+npm http GET https://registry.npmjs.org/ecstatic/-/ecstatic-0.7.6.tgz
+npm http 200 https://registry.npmjs.org/colors/-/colors-1.0.3.tgz
+npm http 200 https://registry.npmjs.org/portfinder/-/portfinder-0.4.0.tgz
+npm http 200 https://registry.npmjs.org/corser/-/corser-2.0.0.tgz
+npm http 200 https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz
+npm http 200 https://registry.npmjs.org/union/-/union-0.4.4.tgz
+npm http 200 https://registry.npmjs.org/ecstatic/-/ecstatic-0.7.6.tgz
+npm http 200 https://registry.npmjs.org/opener/-/opener-1.4.1.tgz
+npm http 200 https://registry.npmjs.org/http-proxy
+npm http GET https://registry.npmjs.org/http-proxy/-/http-proxy-1.12.0.tgz
+npm http 200 https://registry.npmjs.org/http-proxy/-/http-proxy-1.12.0.tgz
+npm http GET https://registry.npmjs.org/mkdirp
+npm http GET https://registry.npmjs.org/async/0.9.0
+npm http GET https://registry.npmjs.org/eventemitter3
+npm http GET https://registry.npmjs.org/requires-port
+npm http GET https://registry.npmjs.org/wordwrap
+npm http GET https://registry.npmjs.org/minimist
+npm http GET https://registry.npmjs.org/qs
+npm http GET https://registry.npmjs.org/url-join/0.0.1
+npm http GET https://registry.npmjs.org/he
+npm http GET https://registry.npmjs.org/mime
+npm http GET https://registry.npmjs.org/minimist
+npm http 200 https://registry.npmjs.org/mkdirp
+npm http 200 https://registry.npmjs.org/requires-port
+npm http GET https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz
+npm http GET https://registry.npmjs.org/requires-port/-/requires-port-0.0.1.tgz
+npm http 200 https://registry.npmjs.org/eventemitter3
+npm http GET https://registry.npmjs.org/eventemitter3/-/eventemitter3-1.1.1.tgz
+npm http 200 https://registry.npmjs.org/minimist
+npm http GET https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz
+npm http 200 https://registry.npmjs.org/url-join/0.0.1
+npm http GET https://registry.npmjs.org/url-join/-/url-join-0.0.1.tgz
+npm http 200 https://registry.npmjs.org/wordwrap
+npm http GET https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz
+npm http 200 https://registry.npmjs.org/async/0.9.0
+npm http GET https://registry.npmjs.org/async/-/async-0.9.0.tgz
+npm http 200 https://registry.npmjs.org/he
+npm http GET https://registry.npmjs.org/he/-/he-0.5.0.tgz
+npm http 200 https://registry.npmjs.org/qs
+npm http 200 https://registry.npmjs.org/mime
+npm http 200 https://registry.npmjs.org/requires-port/-/requires-port-0.0.1.tgz
+npm http 200 https://registry.npmjs.org/minimist
+npm http 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz
+npm http GET https://registry.npmjs.org/qs/-/qs-2.3.3.tgz
+npm http GET https://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz
+npm http GET https://registry.npmjs.org/mime/-/mime-1.3.4.tgz
+npm http 200 https://registry.npmjs.org/eventemitter3/-/eventemitter3-1.1.1.tgz
+npm http 200 https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz
+npm http 200 https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz
+npm http 200 https://registry.npmjs.org/async/-/async-0.9.0.tgz
+npm http 200 https://registry.npmjs.org/url-join/-/url-join-0.0.1.tgz
+npm http 200 https://registry.npmjs.org/qs/-/qs-2.3.3.tgz
+npm http 200 https://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz
+npm http 200 https://registry.npmjs.org/mime/-/mime-1.3.4.tgz
+npm http 200 https://registry.npmjs.org/he/-/he-0.5.0.tgz
+npm http GET https://registry.npmjs.org/minimist/0.0.8
+npm http 200 https://registry.npmjs.org/minimist/0.0.8
+npm http GET https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz
+npm http 200 https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz
+/usr/bin/http-server -> /usr/lib/node_modules/http-server/bin/http-server
+/usr/bin/hs -> /usr/lib/node_modules/http-server/bin/http-server
+npm WARN unmet dependency /usr/lib/node_modules/block-stream requires inherits@'~2.0.0' but will load
+npm WARN unmet dependency undefined,
+npm WARN unmet dependency which is version undefined
+npm WARN unmet dependency /usr/lib/node_modules/fstream requires inherits@'~2.0.0' but will load
+npm WARN unmet dependency undefined,
+npm WARN unmet dependency which is version undefined
+npm WARN unmet dependency /usr/lib/node_modules/fstream-ignore requires inherits@'2' but will load
+npm WARN unmet dependency undefined,
+npm WARN unmet dependency which is version undefined
+npm WARN unmet dependency /usr/lib/node_modules/fstream-npm requires inherits@'2' but will load
+npm WARN unmet dependency undefined,
+npm WARN unmet dependency which is version undefined
+npm WARN unmet dependency /usr/lib/node_modules/glob requires inherits@'2' but will load
+npm WARN unmet dependency undefined,
+npm WARN unmet dependency which is version undefined
+npm WARN unmet dependency /usr/lib/node_modules/npmconf requires inherits@'~2.0.0' but will load
+npm WARN unmet dependency undefined,
+npm WARN unmet dependency which is version undefined
+npm WARN unmet dependency /usr/lib/node_modules/tar requires inherits@'2' but will load
+npm WARN unmet dependency undefined,
+npm WARN unmet dependency which is version undefined
+http-server@0.8.5 /usr/lib/node_modules/http-server
+├── opener@1.4.1
+├── corser@2.0.0
+├── colors@1.0.3
+├── http-proxy@1.12.0 (eventemitter3@1.1.1, requires-port@0.0.1)
+├── optimist@0.6.1 (wordwrap@0.0.3, minimist@0.0.10)
+├── union@0.4.4 (qs@2.3.3)
+├── ecstatic@0.7.6 (url-join@0.0.1, mime@1.3.4, minimist@1.2.0, he@0.5.0)
+└── portfinder@0.4.0 (async@0.9.0, mkdirp@0.5.1)
+
