@@ -7,15 +7,28 @@
   <link rel="stylesheet" href="screen.css" />
 </head>
 <body>
-  <form action="#" id="info">
+<center>
+<h1>Welcome To The Form</h1>
+  <form action="#" id="info" method="get">
     <label for="username">Username</label>
     <input type="text" id="username" maxlength="4" name="username" />
-    <label for="telephone">Email Address</label>
-    <input id="telephone" name="telephone" />
+    
+    <lable class="email" for="email" >E-Mail Address</lable>
+    <input type="email" id="email" name="email" placeholder="example@example.com" pattern="^.+@.+$" />
+    
+    <label for="telephone">Telephone</label>
+    <input type="tel" id="telephone" name="telephone" />
+    
     <label for="biography">Biography</label>
-    <textarea id="biography"></textarea>
+    <br />
+    <textarea id="biography" rows="5" cols="40"></textarea>
+    <br />
+    
     <label for="password">Password</label>
     <input type="password" name="password" />
-    <input type="submit" id="submit" name="Submit" />
+    
+    <input type="submit" id="submit" name="Submit" value="Join" />
+   </form>
+   </center>
 </body>
 </html>
