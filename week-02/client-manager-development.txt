@@ -1,0 +1,58 @@
+# Production Problem 2: Establishing a client/manager-ready HCI development environment
+
+## The Problem
+
+When you show off work on your own computer to someone else (a boss, a client, a colleague, a professor), it’s not unlike inviting someone over to where you live. Most of us need to do some cleanup first. Our desktops and mobile devices  are weird places, where our professional work (email, projects) sit right next to our personal lives (messenger apps, Angry Birds, whatever).
+
+This week’s problem asks you to organize your devices so that they’re presentable for other people, and also better organized for your own work. Most of us are digital slobs, storing files and app shortcuts and everything else on our desktops. We work on files wherever they happen to land when we download them from the web or via an email attachment.
+
+No more. This week is about getting yourself organized, and looking like a true pro next time someone peaks over your shoulder at your desktop.
+
+## Resources & Hints
+
+No specific resources this week. Each step below encourages you to do research on Google or another search engine to figure out what specific things to do for your operating system. Search terms like “screenshots in OS X” or “virtual desktops in Windows 7” will turn up your own unique resources this week.
+
+## Deliverables
+
+You should have forked this repository from GitHub to your own account and cloned it to your computer. You should also have added an alias pointing to my copy (`git remote add upstream https://github.com/karlstolley/itmd362-pp.git`). If you did that work, all you need to do to keep up, week after week, is run `git pull upstream master`. That will pull the latest week’s work from my repository, ready for you to edit and push to your own account.
+
+You should create a separate commit for each of the following steps. The commits should describe exactly what you’ve done, so that someone reading only your commit messages could envision your work. So, “Added a screenshot of my cleaned-up desktop” is a good commit message. “Step one” is not. As always, items between backticks should be run on your command line.
+
+1. Clean up your desktop & take a screenshot of it.
+
+First, remove all of the unnecessary cruft (files, app shortcuts, etc.) from your desktop. Organize the rest. On many of my computers, I have a folder called `debris` tucked away in one corner of my desktop, which I can use to keep the desktop tidy.
+
+Be sure also that you’re choosing desktop backgrounds that make your workspace enjoyable, since you’re the one who will spend the most time looking at it, but that wouldn’t be overly distracting (or offensive) to others. Nature photos, abstract photography, and good old-fashioned neutral colors all do the job nicely. What works for you?
+
+Once you’ve cleaned up your desktop, use Google or another search engine to learn the keyboard commands to take a screenshot of your desktop. Create the screenshot, then copy it to this directory (`week-two`) and add and commit it to the repository.
+
+2. Clean up your home directory.
+
+No deliverable for this (I don’t want to see your files), but on the honors system, take this opportunity to clean up your home directory. File things away, clean things up. Know where your stuff is. Doing this makes it super-easy to backup all of your files, which you should also be doing. It also means you won’t have to think twice about where to start your next project or where to return to when you’re back at work, because you’ll have a ~/Projects directory or something like it.
+
+3. Set up virtual desktops.
+
+Every desktop operating system, even older versions of Windows, make it possible to set up multiple virtual desktops. Use Google or another search engine to learn how to do this on your operating system of choice. Try setting up at least three virtual desktops: one for using your command-line shell and editor; one for your development browser; and one for your everyday web browsing and other apps.
+
+Use Google or another search engine to learn the keyboard commands to take a screenshot of the portion of your screen that shows the overview of each of your virtual desktops. Create the screenshot, then copy it to this directory (`week-two`) and add and commit it to the repository.
+
+Then, also list here the keyboard commands to switch between your different virtual desktops (on some operating systems, you might be able to customize the shortcuts to your own liking):
+
+
+4. Set up a distraction-free browser.
+
+Have at least one browser that is free from bookmarks, bookmark bars, and your personal browsing history. Set it up to clear all history when you exit it, if possible.
+
+You want a clean slate to be able to show a web project off without interference or distraction from any other material. Call it your distraction-free browser.
+
+Use Google or another search engine to learn the keyboard commands to take a screenshot of the window of your distraction-free browser. Create the screenshot, then copy it to this directory (`week-two`) and add and commit it to the repository.
+
+5. Learn to disable notifications.
+
+Projecting your screen or showing it to someone else can be an immediate source of embarrassment if a notification pops up from the wrong app. For every device you own, learn how to disable the notifications. On your desktop device and on one of your devices, take a screenshot of the screen where you can disable all notifications. Create the screenshots, then copy them to this directory (`week-two`) and add and commit them to the repository.
+
+6. Invest in a machine-washable microfiber cloth & clean your screens.
+
+There’s no deliverable for this, but it is good professional practice always to have a cloth to wipe down your screens ahead of meetings. I keep one in every desk I work at, and in each different bag that I carry. Searching Amazon.com, for example, turns up a bunch of different options: http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Doffice-products&field-keywords=microfiber+cloths
+
+When you’re working next to someone, or certainly showing off your work to a client, manager, or coworker, you want them focused on your work—not the gross germ farm oil-slick on your laptop, tablet, and phone screens.
