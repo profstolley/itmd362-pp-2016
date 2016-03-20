@@ -15,20 +15,28 @@ Fine-grained, atomic commits to your Production Problems repository that include
 
 * A monochromatic palette for a website that creates high-end, custom-made gaming laptops.
 
-Filename:
-Explanation of your color choices:
+Filename: #FF0303
+Palette UID: 1000u0kvGCbjBINpaElC5scEJm1
+Explanation of your color choices: I chose this red color because I know red sticks out to most people and catches their
+	eye. So if I was a high end gaming company I would want my products to be noticed.
 
 * A shaded color palette for a website that sells natural and organic foods.
 
-Filename:
-Explanation of your color choices:
+Filename: #0F66BA
+Palette UID: 53-0u0kvGCbjBINpaElC5scEJm1
+Explanation of your color choices: I chose this blue color shade because I wanted to represent
+	the organic color choice which I feel this blue incorporates well.
 
 * A complementary palette for a banking website.
 
-Filename:
-Explanation of your color choices:
+Filename: #059DB2 and #FF7C03
+Palette UID: 23l0u0kvGCbjBINpaElC5scEJm1
+Explanation of your color choices: I think the lighter color choice I chose has a war welcoming feeling to them, which 
+	banks would like to customers to feel they are at home when handling their finances.
 
 * A triadic palette for a website that offers games for children.
 
-Filename:
-Explanation of your color choices:
+Filename:#02C16F, #FFD003, #870ABD
+Palette UID: 333180kvGCbjBINpaElC5scEJm1
+Explanation of your color choices: The fun lighter color choice I chose would attract the interest of parents and children alike.
+	Alot of children's games already have this lighter color feel, and I think this would be a good choice to follow those lines.

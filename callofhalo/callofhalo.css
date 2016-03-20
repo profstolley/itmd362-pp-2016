@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'scorchedearth'; /*Scorched Earth Font*/
+    src: url('/font_scorchedearth/ScorchedEarth.ttf'); /*URL to font*/
+	/*PERSONAL USE ONLY font downloaded from http://www.fontspace.com/category/war */
+}
+
+body {
+    background-image: url("background.JPG");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
