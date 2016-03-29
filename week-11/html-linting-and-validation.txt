@@ -13,7 +13,38 @@ Using the HTML Tidy tool, installed as a command-line tool on your computer via 
 
 1. First, run HTML Tidy on the index.html file. Copy and paste the errors here:
 
+line 6 column 5 - Warning: <meta> unexpected or duplicate quote mark
+line 10 column 46 - Warning: <img> attribute with missing trailing quote mark
+line 10 column 7 - Warning: missing </a>
+Info: Document content looks like HTML5
+3 warnings, 0 errors were found!
+
+
 2. Fix as many errors as are listed by HTML Tidy, and re-run until there are no errors reported. HINT: Always fix the first error reported, then re-run tidy. Then, run the contents of `index.html` through the HTML validator. List any errors that the validator reports here:
+
+Error: = in an unquoted attribute value. Probable causes: Attributes running together or a URL query string in an unquoted attribute value.
+At line 6, column 40
+" content=width=device-width,i
+
+Error: = in an unquoted attribute value. Probable causes: Attributes running together or a URL query string in an unquoted attribute value.
+At line 6, column 67
+h,initial-scale=1.0,shrink-to-
+
+Error: = in an unquoted attribute value. Probable causes: Attributes running together or a URL query string in an unquoted attribute value.
+At line 6, column 85
+0,shrink-to-fit=no/>↩ <link
+
+Error: Text not allowed in element figure in this context.
+From line 11, column 57; to line 14, column 4
+igcaption>↩        Hank and Fanny are having the time of their lives (well, Hank is) on New↩        Year’s Eve, 2016.↩    </figu
+Content model for element figure:
+Either: One figcaption element followed by flow content.
+Or: Flow content followed by one figcaption element.
+
+Error: The aria-labelledby attribute must point to an element in the same document.
+From line 9, column 5; to line 9, column 79
+body>↩ <figure role="img" aria-labelledby="hank-and-fanny" class="hank-and-fanny">↩     
+
 
 3. Finally, fix the errors that are listed by the HTML validator, and commit the `index.html` file in its error-free state.
 
