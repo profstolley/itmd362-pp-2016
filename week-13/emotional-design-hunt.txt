@@ -8,7 +8,7 @@ Then, locate a physical object that you use regularly in your life (does not hav
 
 ## Deliverables
 
-A. Photograph of the object (place in the week-12/ directory and commit).
+A. Photograph of the object (place in the week-13/ directory and commit).
 
 B. Emotional design levels of your object:
 
