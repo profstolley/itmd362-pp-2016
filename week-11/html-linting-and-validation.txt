@@ -35,6 +35,9 @@ line 12 column 7 - Warning: <figcaption> anchor "hank-and-fanny" already defined
 Info: Document content looks like HTML5
 2 warnings, 0 errors were found!
 
+4th re-run:
+Info: Document content looks like HTML5
+No warnings or errors were found.
 
 3. Finally, fix the errors that are listed by the HTML validator, and commit the `index.html` file in its error-free state.
 
