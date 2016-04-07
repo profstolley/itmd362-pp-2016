@@ -12,6 +12,12 @@ Using the HTML Tidy tool, installed as a command-line tool on your computer via 
 ## Deliverables
 
 1. First, run HTML Tidy on the index.html file. Copy and paste the errors here:
+line 6 column 5 - Warning: <meta> unexpected or duplicate quote mark
+line 10 column 46 - Warning: <img> attribute with missing trailing quote mark
+line 10 column 7 - Warning: missing </a>
+Info: Document content looks like HTML5
+3 warnings, 0 errors were found!
+
 
 2. Fix as many errors as are listed by HTML Tidy, and re-run until there are no errors reported. HINT: Always fix the first error reported, then re-run tidy. Then, run the contents of `index.html` through the HTML validator. List any errors that the validator reports here:
 
