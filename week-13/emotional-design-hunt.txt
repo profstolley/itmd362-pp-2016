@@ -32,7 +32,7 @@ C.  Emotional design qualities of the object that might be useful for Project 3/
    and still will be able to tell that it's one solid thing. 
    (Which is a contrast from watches with medal face and leather strap for example. 
    While still well-designed potentially more elegant and unique, design is less consistant and at times, 
-   even experimental and incomplete looking)
+   even experimental and odd looking)
 3. This watch is simple to put on and easy to use. I will try to make the website in a way that feels like
    the simplest thing such as putting of a watch on your wrist and easy to use as if you just have to look
    at it to use it.
