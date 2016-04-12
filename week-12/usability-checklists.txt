@@ -12,13 +12,13 @@ Usability checklists are typical, and sometimes mindless, tools/magic tricks use
 2.http://www.studyweb.com/test-your-website-a-57-point-checklist-for-maximum-usability/
 
 * Your own condensed, ten-item must-have usability checklist:
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+1. website has enough white space for the user (at least half of the screen)
+2. simple navigation method so the user can easily understand and use
+3. website is compatible with many different browsers and versions
+4. typography fits the overall purpose and design of the website
+5. include minimal motion graphics (don't overdo "cool" things)
+6. website should be low-bandwith friendly
+7. color of the website is not eye-blinding 
+8. layout is set up so that important things that user would visit for is highlighted with visual queues
+9. make the design flow, control the path the user's eyes follow
+10. keep the design of the website consistant across all the different pages
