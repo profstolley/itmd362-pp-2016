@@ -12,14 +12,27 @@ A. Photograph of the object (place in the week-13/ directory and commit).
 
 B. Emotional design levels of your object:
 
-* Visceral:
+* Visceral: The usual wear-and-tear of the watch is visible. (more visible in person)
+Made out of stainless steel, it has a timeless design that will age well into the future.
 
-* Behavioral:
+* Behavioral: The watch does one thing and that is telling me the date/time in a somewhat of a 
+traditional/old way with analog clock face.
 
-* Reflective:
+* Reflective: This is the single most important object that I own.
+This is an "heirloom" (atleast will be) that my father used before he passed. 
+This watch reminds me of him every time I check the time.
+It reminds me when my father told me to use this watch starting college.
 
 C.  Emotional design qualities of the object that might be useful for Project 3/MyIIT redesign:
 
-1.
-2.
-3.
+1. In the watch world, this watch has a small watch face which is a quality similar to "white-spaces" in web design.
+   The main purpose of a watch is to tell time. However, that does not justify making the watch face huge to
+   cover-up everything but the time it's telling.
+2. Design of this watch is consistant. You can go around the whole watch including the wrist-strap
+   and still will be able to tell that it's one solid thing. 
+   (Which is a contrast from watches with medal face and leather strap for example. 
+   While still well-designed potentially more elegant and unique, design is less consistant and at times, 
+   even experimental and incomplete looking)
+3. This watch is simple to put on and easy to use. I will try to make the website in a way that feels like
+   the simplest thing such as putting of a watch on your wrist and easy to use as if you just have to look
+   at it to use it.
