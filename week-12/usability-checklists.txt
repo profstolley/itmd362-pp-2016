@@ -8,18 +8,18 @@ Usability checklists are typical, and sometimes mindless, tools/magic tricks use
 
 * URLs for the usability checklists you've found:
 
-1.
-2.
+1.http://www.expertusability.com/website-usability-checklist-and-usability-guide/
+2.http://infodesign.com.au/wp-content/uploads/WebCheck.pdf
 
 * Your own condensed, ten-item must-have usability checklist:
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+1.The website/app loads within 3 seconds
+2.It is easy to identify the owner of the website/ app with logo or name 
+3. there is an overall consistency through out the website/app
+4.It is easy to find information about how to contact the company owner of the website app 
+5.When filling a form, this form is polite and helpful to user, provides feedback.
+6.feedback is prompt
+7.When an error is displayed is very simple to understand.
+8.Site or app structure is simple, navigation feels natural
+9.It is easy to find back or exit button 
+10.no crazy things are happening like pop-ups, or animation if it is not necessary 

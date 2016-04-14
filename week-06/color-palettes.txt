@@ -15,20 +15,20 @@ Fine-grained, atomic commits to your Production Problems repository that include
 
 * A monochromatic palette for a website that creates high-end, custom-made gaming laptops.
 
-Filename:
-Explanation of your color choices:
+Filename:palette1.png
+Explanation of your color choices:palette one was chosen with the only reference that I have to modern video games: “HALO” I am not a gamer, but whenever I think about gaming laptops or similar I think about this game, also it makes a reference to the classic view of the command prompt with black background and green letters
 
 * A shaded color palette for a website that sells natural and organic foods.
 
-Filename:
-Explanation of your color choices:
+Filename:palete2.png
+Explanation of your color choices: for organic foods I choose a different kind of green, more “earthy” greens. This decision I made just because most vegetables are green, and most organic product are vegetables, I think. 
 
 * A complementary palette for a banking website.
 
-Filename:
-Explanation of your color choices:
+Filename:Palette3.png
+Explanation of your color choices: this was the most difficult selection cause I am aware that I can cause tension with this. However my selection was so that user feels comfortable, and friendly.
 
 * A triadic palette for a website that offers games for children.
 
-Filename:
-Explanation of your color choices:
+Filename:Palette4.png
+Explanation of your color choices:This colors I chose thinking about a baby more than a toddler. I think this colors will grave the attention of a baby without generating stress. 
