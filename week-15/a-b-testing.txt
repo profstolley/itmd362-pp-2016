@@ -12,3 +12,10 @@ Take a screenshot of the interface on both a mobile and desktop device. Then, sk
 * Sketch or illustrate (e.g., in Photoshop) your alternate/"b" test, placed in this directory (`week-15`)
 
 * A text description of the modification, and a description of the HTML, CSS, and JavaScript that you would need to write for the test (you do *not* have to write the actual HTML, CSS, and JavaScript, however)
+
+****TextDescription****
+DESKTOP-
+I did not like how the website did not utilize the extra row of space created by the nav bar(Home, Trending, Subscriptions). And the side menu bar is overpopulated with options. I moved a lot of the things that I use to the bar so I don't have to click on the menu button to access those items. The navbar is already wide enough to accomodate for more items. As for javascript, there really is nothing to change. For css, only a minor changes that would allow the items in the navbar to move back to under the menu if the window is too narrow. HTML is where all the changes will come. Moving a lot of the items that are under menu should be moved right on the navbar.
+
+MOBILE-
+For the mobile view, I thought there is no problem with the layout itself. It is doing the best it could to place all of the necessary functions without taking up precious screen real estate. Where I do want to change is the design choices. The mobile view should resemble the desktop view as much as possible. The 3 dot menu on the top right corner should be moved to the left with the hamburger menu button just like the desktop view. Other than that, I thought the mobile view was very decent. Again, no changes with js. With the combination of html/css the button should move to the top left corner and should become a hamburger button.
